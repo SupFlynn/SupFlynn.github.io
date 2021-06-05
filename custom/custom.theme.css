@@ -109,13 +109,3 @@
 	--bd-blue-hover: var(--hover-color); /* betterdiscord hover color [default: var(--hover-color)] */
 	--bd-blue-active: var(--hover-color); /* betterdiscord active color [default: var(--hover-color)] */
 }
-#MemberCount
-{
-  background: rgba(0, 0, 0, 0.6)  !important;
-}
-[class*=chat-]>[class*=content-] [class*=chatContent-]>form [class*=typing-] {
-    bottom: 45px;  
-}
-[class*=chat-]>[class*=content-] [class*=messagesWrapper-] {
-    bottom: -20px;
-}
