@@ -660,6 +660,9 @@ textarea,
 }
 
 .scroller-1Bvpku {
+  border-top: solid 1px var(--line-color);
+  border-bottom: solid 1px var(--line-color);
+  padding-top: 8px !important;
   background: transparent;
 }
 
