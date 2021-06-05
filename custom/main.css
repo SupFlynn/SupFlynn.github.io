@@ -1161,34 +1161,6 @@ textarea,
 }
 
 /* CHANNEL LIST PANELS */
-.panels-j1Uci_ {
-  background: transparent;
-}
-.panels-j1Uci_ > :first-child {
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, calc(var(--background-shading) * .3));
-}
-
-.container-3baos1 > .flex-1O1GKY,
-.container-1giJp5 > .flex-1O1GKY {
-  background: rgba(0, 0, 0, 0.3);
-  border-radius: 15px;
-}
-.container-3baos1 > .flex-1O1GKY > :nth-child(n+2),
-.container-1giJp5 > .flex-1O1GKY > :nth-child(n+2) {
-  position: relative;
-  margin-left: -1px;
-}
-.container-3baos1 > .flex-1O1GKY > :nth-child(n+2):before,
-.container-1giJp5 > .flex-1O1GKY > :nth-child(n+2):before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 2px;
-  bottom: 2px;
-  width: 1px;
-  background: rgba(255, 255, 255, 0.2);
-}
-
 .button-14-BFJ.enabled-2cQ-u7 {
   color: transparent;
   stroke: rgb(var(--fullwhite-font));
@@ -1216,50 +1188,125 @@ textarea,
   color: rgb(var(--gx-red));
   stroke: rgb(var(--gx-red));
 }
-
-.container-1giJp5 {
-  border-color: transparent;
+/* BD Toasts */
+/*.bd-toasts,
+.toasts {
+  align-items: flex-end !important;
+}*/
+.bd-toast,
+.toast {
+  background: rgb(var(--dark-background-color)) !important;
+  border-radius: 0 !important;
+  border: solid 1px rgb(var(--accent-color-1));
+  box-shadow: none;
+  font-weight: 500;
+  color: rgb(var(--fullwhite-font)) !important;
+  /* margin-right: 10px; */
 }
-.container-1giJp5 > .flex-1O1GKY {
-  background: rgba(0, 0, 0, 0.3);
-  border-radius: 5px;
-  padding: 5px;
+#app-mount .bd-addon-list .bda-header,
+#app-mount .bd-addon-list .bda-description,
+#app-mount .bd-addon-list .bd-description,
+#app-mount .bd-addon-list .bd-card-footer {
+  color: rgb(var(--normal-font)) !important;
 }
-.container-1giJp5 .inner-tyMogq .rtcConnectionStatus-2-jIsi .ping-2NgC8E {
-  width: 16px;
-  height: 16px;
-  margin-right: 3px;
-  background-size: 16px;
+#app-mount .bd-addon-list .bd-card-footer
+#app-mount .bd-addon-button > svg {
+  fill: rgb(var(--normal-font)) !important;
 }
-.container-1giJp5 .channel-1TmDQ6 {
-  color: rgba(255, 255, 255, 0.3);
+#app-mount .bd-addon-list .bd-card-footer,
+#app-mount .bd-addon-list .bda-header {
+  border-color: rgb(var(--accent-color-1));
+}
+.bd-addon-list .bd-footer a {
+  color: var(--text-link);
+}
+.bd-toast.icon {
+  padding-left: 10px;
+}
+.toast.toast-danger,
+.toast.toast-error,
+.bd-toast[style*="237, 66, 69"] {
+  background-color: rgb(var(--dark-background-color)) !important;
+  color: rgb(var(--gx-red-2)) !important;
+  border-color: rgb(var(--gx-red));
+}
+.bd-toast[style*="250, 166, 26"] {
+  background-color: rgb(var(--dark-background-color)) !important;
+  color: rgb(var(--gx-yellow-2)) !important;
+  border-color: rgb(var(--gx-yellow));
+}
+.bd-toast[style*="116, 127, 141"] {
+  background-color: rgb(var(--dark-background-color)) !important;
+  color: rgb(var(--normal-font)) !important;
+  border-color: rgb(var(--gx-grey-2));
+}
+.bd-toast.toast-success,
+.bd-toast[style*="59, 165, 92"] {
+  background-color: rgb(var(--dark-background-color)) !important;
+  color: rgb(var(--gx-green-2)) !important;
+  border-color: rgb(var(--gx-green));
+}
+/* BD Addon Errors */
+.bd-modal-wrapper .bd-modal-body {
+  background-color: rgb(var(--dark-background-color));
+}
+.bd-modal-wrapper .header {
+  background-color: rgb(var(--darker-background-color));
+}
+.bd-modal-wrapper .tab-bar-container {
+  background: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border-bottom: solid 1px rgb(var(--accent-color-1));
+}
+.bd-modal-wrapper .bd-modal-inner {
+  border-radius: 0;
+  border: solid 1px rgb(var(--accent-color-1));
+}
+.bd-modal-wrapper .error-link {
+  color: rgb(var(--link-text));
+}
+.bd-modal-wrapper .table-header {
+  border-color: rgb(var(--accent-color-2));
+}
+.bd-modal-wrapper .error {
+  border-color: rgba(var(--accent-color-1), 0.7);
+}
+/* BD Update Notice */
+.colorInfo-2URYW5 {
+  background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+  color: rgb(var(--fullwhite-font));
+  border: solid 1px var(--line-color);
+  border-bottom: none;
+}
+.full-motion.app-focused .colorInfo-2URYW5 {
+  animation: background-blinking 450ms infinite !important;
+}
+.closeButton-3cJIM4 {
+  background-image: none;
   opacity: 1;
-  transition: all 0.15s ease-in-out;
 }
-.container-1giJp5 .channel-1TmDQ6:hover {
-  color: rgba(255, 255, 255, 0.5);
-  text-decoration: none;
+.closeButton-3cJIM4:before {
+  font-size: 24px;
+  content: "×";
+  font-weight: 900;
+  color: rgb(var(--muted-font));
 }
-
-.activityPanel-28dQGo {
-  border-color: transparent;
+.closeButton-3cJIM4:hover:before {
+  color: rgb(var(--normal-hover-font));
 }
-.activityPanel-28dQGo .actions-aUdUfC {
-  background: rgba(0, 0, 0, 0.3);
-  border-radius: 15px;
+#outdatedPlugins > span,
+#pluginNotice #outdatedPlugins span {
+  color: rgb(var(--fullwhite-font));
 }
-.activityPanel-28dQGo .actions-aUdUfC > :nth-child(n+2) {
-  position: relative;
-  margin-left: -1px;
+.noticeInfo-3_iTE1 {
+  background-color: rgb(var(--darker-background-color));
+  border: solid 1px var(--line-color-2);
+  border-top: none;
+  color: rgb(var(--fullwhite-font));
 }
-.activityPanel-28dQGo .actions-aUdUfC > :nth-child(n+2):before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 2px;
-  bottom: 2px;
-  width: 1px;
-  background: rgba(255, 255, 255, 0.2);
+.full-motion.app-focused .noticeInfo-3_iTE1 {
+  animation: both-blinking-with-transparency 450ms infinite !important;
 }
 
 /* CHANNEL INDICATORS */
