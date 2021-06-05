@@ -3591,19 +3591,19 @@ code {
 }
 
 /* STATUS */
-.mask-1l8v16 rect[mask="url(#svg-mask-status-online)"] {
+.mask-1l8v16 rect[mask="url(#svg-mask-status-online)"], .mask-1l8v16 rect[mask="url(#svg-mask-status-online-mobile)"], .mask-1l8v16 rect[fill="#3ba55c"] {
   fill: var(--online-color);
 }
-.mask-1l8v16 rect[mask="url(#svg-mask-status-idle)"] {
+.mask-1l8v16 rect[mask="url(#svg-mask-status-idle)"], .mask-1l8v16 rect[fill="#faa61a"] {
   fill: var(--idle-color);
 }
-.mask-1l8v16 rect[mask="url(#svg-mask-status-dnd)"] {
+.mask-1l8v16 rect[mask="url(#svg-mask-status-dnd)"], .mask-1l8v16 rect[fill="#ed4245"] {
   fill: var(--dnd-color);
 }
-.mask-1l8v16 rect[mask="url(#svg-mask-status-streaming)"] {
+.mask-1l8v16 rect[mask="url(#svg-mask-status-streaming)"], .mask-1l8v16 rect[fill="#593695"] {
   fill: var(--streaming-color);
 }
-.mask-1l8v16 rect[mask="url(#svg-mask-status-offline)"] {
+.mask-1l8v16 rect[mask="url(#svg-mask-status-offline)"], .mask-1l8v16 rect[fill="#747f8d"] {
   fill: var(--offline-color);
 }
 
@@ -5339,8 +5339,8 @@ textarea::-webkit-scrollbar {
   -webkit-mask: linear-gradient(to bottom, #000, transparent 93%);
   mask: linear-gradient(to bottom, #000, transparent 93%);
 }
-.userPopout-3XzG_A .headerTop-2y3V6H,
-.userPopout-3XzG_A .aboutMeSection-3bipSD {
+.userPopout-3XzG_A .headerTop-2cWpdB,
+.userPopout-3XzG_A .aboutMeSection---MkQa {
   background-color: transparent;
 }
 .userPopout-3XzG_A .mobileIndicator-29f8Xh {
