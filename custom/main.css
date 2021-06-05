@@ -1161,6 +1161,14 @@ textarea,
 }
 
 /* CHANNEL LIST PANELS */
+}
+.panels-j1Uci_ {
+    border-bottom: solid 1px var(--line-color);
+}
+.platform-web .panels-j1Uci_ {
+    border-bottom: none;
+}
+
 .button-14-BFJ.enabled-2cQ-u7 {
   color: transparent;
   stroke: rgb(var(--fullwhite-font));
@@ -1187,6 +1195,24 @@ textarea,
 .strikethrough-3Wiitd {
   color: rgb(var(--gx-red));
   stroke: rgb(var(--gx-red));
+}
+
+container-3baos1 {
+  border-top: solid 1px var(--line-color);
+}
+.container-6sXIoE {
+  border-bottom: none;
+  border-top: solid 1px var(--line-color);
+}
+.container-1giJp5 {
+  border-top: solid 1px var(--line-color);
+  border-bottom: none;
+}
+.panel-24C3ux {
+  border-top: solid 1px var(--line-color);
+}
+.activityPanel-28dQGo {
+  border-bottom: none;
 }
 /* BD Toasts */
 /*.bd-toasts,
