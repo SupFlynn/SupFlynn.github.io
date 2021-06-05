@@ -1189,27 +1189,23 @@ textarea,
   background: rgba(255, 255, 255, 0.2);
 }
 
-.button-14-BFJ {
-  width: 32px;
-  height: 32px;
-  opacity: 1;
-}
-.button-14-BFJ > .contents-18-Yxp > svg {
-  background-position: center;
-  background-size: 18px;
-  background-repeat: no-repeat;
-  color: #fff;
-  opacity: 0.3;
-  transition: all 0.1s ease-in-out;
+.button-14-BFJ.enabled-2cQ-u7 {
+  color: transparent;
+  stroke: rgb(var(--fullwhite-font));
+  margin-left: -1px;
+  border: solid 1px rgba(0, 0, 0, 0);
 }
 .button-14-BFJ.enabled-2cQ-u7:hover {
-  background: transparent;
+  border-radius: 0;
+  background: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+  border-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency));
+  color: transparent;
 }
-.button-14-BFJ:hover > .contents-18-Yxp > svg {
-  opacity: 0.7;
+.container-6sXIoE .button-14-BFJ .contents-18-Yxp {
+  color: rgb(var(--normal-font));
 }
-.button-14-BFJ.disabled-2iW-fm > .contents-18-Yxp > svg {
-  opacity: 0.1;
+.container-6sXIoE .button-14-BFJ.active-6TsW-_ .contents-18-Yxp {
+  color: rgb(var(--gx-green));
 }
 
 .container-3baos1 {
