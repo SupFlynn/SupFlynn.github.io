@@ -110,3 +110,7 @@
 	--bd-blue-hover: var(--hover-color); /* betterdiscord hover color [default: var(--hover-color)] */
 	--bd-blue-active: var(--hover-color); /* betterdiscord active color [default: var(--hover-color)] */
 }
+
+.scroller-2LSbBU{
+	height: 565px !important
+}
