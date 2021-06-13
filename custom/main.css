@@ -9266,10 +9266,3 @@ textarea::-webkit-scrollbar {
 .css-3vaxre-menu {
   background-color: var(--backdrop-overlay);
 }
-
-.live-vBWnV6 {
-  border-radius: 2px;
-  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-  --cp-size: 4px;
-  border: solid 1px rgba(255, 0, 0, 0.9);
-}
